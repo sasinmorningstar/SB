@@ -1,4 +1,4 @@
-import re
+# import re
 
 def current_id_replacements(current_id):
     current_id = current_id.replace('<h1 class="title" id="firstHeading">', '')
@@ -41,6 +41,7 @@ def purport_replacements(purport):
     purport = purport.replace('</p>', '')
     purport = purport.replace('</div>', '')
     purport = purport.replace('(<a href="/wiki/BG_4.7_(1972)" title="BG 4.7 (1972)">BG 4.7</a>)', '')
-    re.sub('\n$', '', purport)
+    purport = purport.replace('(<a href="/wiki/SB_1.1.1" title="SB 1.1.1">SB 1.1.1</a>)', '')
+    
     
     return purport
