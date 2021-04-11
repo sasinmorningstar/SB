@@ -1,5 +1,5 @@
 import requests
-import re
+import json
 from bs4 import BeautifulSoup
 from replacements import current_id_replacements, verse_replacements, synonyms_replacements, translation_replacements, purport_replacements
 from pathlib import Path
@@ -24,8 +24,6 @@ def parser():
         head = list(list(header.split('>'))[1].split('<'))[0]
         pointers.append(head)
     
-    # print(headers)
-    # print(pointers)
 
     current_id = str(soup.find("h1", {"id": "firstHeading"}))
     current_id = current_id_replacements(current_id)
@@ -37,7 +35,8 @@ def parser():
 
     verse = str(soup.find("div", {"class":"verse"}))
     verse = verse_replacements(verse)
-    verse_entry = [{"roman": verse, "isProse": False}]
+    # verse_entry = [{"roman": verse, "isProse": False}]
+    verse_entry = [{"roman": verse}]
 
     synonyms = str(soup.find("div", {"class": "synonyms"}))
     synonyms = synonyms_replacements(synonyms)
@@ -53,17 +52,18 @@ def parser():
 
 
     knowledge = {"page_info": navigation, "verse": verse_entry, "synonyms": synonyms, "translation": translation, "purport": purport_entry}
+    
+    json_knowledge = json.dumps(knowledge, indent=4, ensure_ascii=False)
 
-
-    print(knowledge)
-    print(type(knowledge))
+    print(json_knowledge)
+    print(type(json_knowledge))
 
     if Path(f'/home/somit/Projects/web-scraping/SB/1/1/{_index}.json').is_file():
         with open(f'/home/somit/Projects/web-scraping/SB/1/1/{_index}.json', 'w') as json_file:
-            print(knowledge, file=json_file)
+            print(json_knowledge, file=json_file)
     else:
         with open(f'/home/somit/Projects/web-scraping/SB/1/1/{_index}.json', 'x') as json_file:
-            print(knowledge, file=json_file)
+            print(json_knowledge, file=json_file)
 
 for _index in range(1,24):
     parser()
