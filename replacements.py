@@ -35,6 +35,7 @@ def translation_replacements(translation):
 
 
 def purport_para_replacements(purport_para):
+    purport_para = purport_para.replace(', <p>', '')
     purport_para = purport_para.replace('<p>', '')
     purport_para = purport_para.replace('</p>', '')
     purport_para = purport_para.replace('<b>', '')
@@ -42,7 +43,7 @@ def purport_para_replacements(purport_para):
 
     purport_para = purport_para.replace('[', '')
     purport_para = purport_para.replace(']', '')
-    purport_para = purport_para.replace(', ', '')
+    
 
     purport_para = re.sub('(\(<a.*/a>\))','',purport_para)
     purport_para = re.sub('(<a.*/a>)','',purport_para)

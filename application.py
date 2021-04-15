@@ -5,16 +5,7 @@ from replacements import current_id_replacements, verse_replacements, synonyms_r
 from pathlib import Path
 
 
-
-
-def parser():
-    global _index
-    url = f'https://vanisource.org/wiki/SB_1.{chapter}.{_index}'
-
-    _source = requests.get(url)
-
-    soup = BeautifulSoup(_source.content, 'html.parser')
-    
+def parser(soup):
     b_tags = soup.find_all("b")
 
     headers = str(b_tags[len(b_tags)-1])
@@ -38,18 +29,40 @@ def parser():
     current_id = current_id_replacements(current_id)
 
     print(current_id)
+
+    global _index
     if len(current_id)>9 and current_id[7]=='.':
         _index = current_id[8:]
     elif len(current_id)>9:
         _index = current_id[7:]
 
+    if current_id[7]==".":
+        current_chapter = int(current_id[5:7])
+    else:
+        current_chapter = int(current_id[5:6])
     
+    print(current_chapter)
+
     if len(pointers)==1:
         navigation = {"current_id": current_id, "previous_id": None, "next_id": pointers[0]}
+
+        if pointers[0][7]==".":
+            next_chapter = int(pointers[0][5:7])
+        else:
+            next_chapter = int(pointers[0][5:6])
+        
+        print(next_chapter)
     else:
         navigation = {"current_id": current_id, "previous_id": pointers[0], "next_id": pointers[1]}
 
+        if pointers[1][7]==".":
+            next_chapter = int(pointers[1][5:7])
+        else:
+            next_chapter = int(pointers[1][5:6])
+        
+        print(next_chapter)
 
+    
     # Preparing Verse Entry
     verse = str(soup.find("div", {"class":"verse"}))
     verse = verse_replacements(verse)
@@ -119,24 +132,33 @@ def parser():
             print(json_knowledge, file=json_file)
 
 
+    # Code to automate the parser run for an entire Canto.
+    global total
+    if current_chapter==next_chapter:
+        total += 1
+    else:
+        total = 1
+        global chap
+        chap += 1
+
 
 
 # Driver Code for parser
-chap = 19
-total = 40
-for chapter in range(chap,chap+1):
-    for _index in range(1,total+1):
-        url = f'https://vanisource.org/wiki/SB_1.{chapter}.{_index}'
-        _source = requests.get(url)
-        soup = BeautifulSoup(_source.content, 'html.parser')
-        page_check = str(soup.find("div", {"class":"noarticletext mw-content-ltr"}))
+chap = 1
+total = 1
 
-        if page_check and str(page_check)!=str(None):
-            continue
-        else:
-            print(_index)
-            parser()
+while chap<20:
+    for chapter in range(chap,chap+1):
+        for _index in range(total,total+1):
+            url = f'https://vanisource.org/wiki/SB_1.{chapter}.{_index}'
+            _source = requests.get(url)
+            soup = BeautifulSoup(_source.content, 'html.parser')
 
-    # for _index in range(22,23):
-    #     print(_index)
-    #     parser()
+            page_check = str(soup.find("div", {"class":"noarticletext mw-content-ltr"}))
+
+            if page_check and str(page_check)!=str(None):
+                total += 1
+                continue
+            else:
+                print(_index)
+                parser(soup)
