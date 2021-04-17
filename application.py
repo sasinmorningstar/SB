@@ -117,18 +117,19 @@ def parser(soup):
 
 
     # Handling Directory creation.
-    directory = Path(f'/home/somit/Projects/web-scraping/SB/1/{chapter}/')
+    global canto
+    directory = Path(f'/home/somit/Projects/web-scraping/SB/{canto}/{chapter}/')
 
     if not directory.exists():
-        directory.mkdir()
+        directory.mkdir(parents=True)
     
 
 
-    if Path(f'/home/somit/Projects/web-scraping/SB/1/{chapter}/{_index}.json').is_file():
-        with open(f'/home/somit/Projects/web-scraping/SB/1/{chapter}/{_index}.json', 'w') as json_file:
+    if Path(f'/home/somit/Projects/web-scraping/SB/{canto}/{chapter}/{_index}.json').is_file():
+        with open(f'/home/somit/Projects/web-scraping/SB/{canto}/{chapter}/{_index}.json', 'w') as json_file:
             print(json_knowledge, file=json_file)
     else:
-        with open(f'/home/somit/Projects/web-scraping/SB/1/{chapter}/{_index}.json', 'x') as json_file:
+        with open(f'/home/somit/Projects/web-scraping/SB/{canto}/{chapter}/{_index}.json', 'x') as json_file:
             print(json_knowledge, file=json_file)
 
 
@@ -144,13 +145,15 @@ def parser(soup):
 
 
 # Driver Code for parser
-chap = 1
+canto = 7
+chap = 10
 total = 1
 
-while chap<20:
+while chap<16:
     for chapter in range(chap,chap+1):
         for _index in range(total,total+1):
-            url = f'https://vanisource.org/wiki/SB_1.{chapter}.{_index}'
+            url = f'https://vanisource.org/wiki/SB_{canto}.{chapter}.{_index}'
+
             _source = requests.get(url)
             soup = BeautifulSoup(_source.content, 'html.parser')
 
