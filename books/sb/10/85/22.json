@@ -1,20 +1,20 @@
 {
     "info": {
-        "id": "SB 10.85.22",
-        "prevId": "SB 10.85.21",
-        "nextId": "SB 10.85.23"
+        "id": "sb/10/85/22",
+        "prevId": "sb/10/85/21",
+        "nextId": "sb/10/85/23"
     },
     "verses": [
         {
             "roman": "śrī-bhagavān uvāca\nvaco vaḥ samavetārthaṁ\ntātaitad upamanmahe\nyan naḥ putrān samuddiśya\ntattva-grāma udāhṛtaḥ\n"
         }
     ],
-    "synonyms": "\nśrī-bhagavān uvāca—the Personality of Godhead said; vacaḥ—words; vaḥ—your; samaveta—appropriate; artham—whose meaning; tāta—O father; etat—these; upamanmahe—I consider; yat—since; naḥ—Us; putrān—your sons; samuddiśya—by referring to; tattva—of categories of fact; grāmaḥ—the totality; udāhṛtaḥ—set forth.\n\n",
-    "translation": "\nThe Supreme Lord said: My dear father, I consider your statements appropriate, since you have explained the various categories of existence by referring to Us, your sons.\n\n",
+    "synonyms": "śrī-bhagavān uvāca—the Personality of Godhead said; vacaḥ—words; vaḥ—your; samaveta—appropriate; artham—whose meaning; tāta—O father; etat—these; upamanmahe—I consider; yat—since; naḥ—Us; putrān—your sons; samuddiśya—by referring to; tattva—of categories of fact; grāmaḥ—the totality; udāhṛtaḥ—set forth.",
+    "translation": "The Supreme Lord said: My dear father, I consider your statements appropriate, since you have explained the various categories of existence by referring to Us, your sons.",
     "purport": [
         {
             "type": "normal",
-            "content": "\nPosing as Vasudeva's dependent son, Lord Kṛṣṇa expresses gratitude for His father's edifying instructions.\n"
+            "content": "Posing as Vasudeva's dependent son, Lord Kṛṣṇa expresses gratitude for His father's edifying instructions."
         }
     ]
 }

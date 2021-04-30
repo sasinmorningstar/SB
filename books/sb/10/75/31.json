@@ -1,15 +1,15 @@
 {
     "info": {
-        "id": "SB 10.75.31",
-        "prevId": "SB 10.75.30",
-        "nextId": "SB 10.75.32"
+        "id": "sb/10/75/31",
+        "prevId": "sb/10/75/30",
+        "nextId": "sb/10/75/32"
     },
     "verses": [
         {
             "roman": "ekadāntaḥ-pure tasya\nvīkṣya duryodhanaḥ śriyam\natapyad rājasūyasya\nmahitvaṁ cācyutātmanaḥ\n"
         }
     ],
-    "synonyms": "\nekadā—one day; antaḥ-pure—within the palace; tasya—his (Mahārāja Yudhiṣṭhira's); vīkṣya—observing; duryodhanaḥ—Duryodhana; śrīyam—opulence; atapyat—he was pained; rājasūyasya—of the Rājasūya sacrifice; mahitvam—the greatness; ca—and; acyuta-ātmanaḥ—of him (King Yudhiṣṭhira) whose very soul was Lord Acyuta.\n\n",
-    "translation": "\nOne day Duryodhana, while observing the riches of King Yudhiṣṭhira's palace, felt greatly disturbed by the magnificence of both the Rājasūya sacrifice and its performer, the King, whose life and soul was Lord Acyuta.\n\n",
+    "synonyms": "ekadā—one day; antaḥ-pure—within the palace; tasya—his (Mahārāja Yudhiṣṭhira's); vīkṣya—observing; duryodhanaḥ—Duryodhana; śrīyam—opulence; atapyat—he was pained; rājasūyasya—of the Rājasūya sacrifice; mahitvam—the greatness; ca—and; acyuta-ātmanaḥ—of him (King Yudhiṣṭhira) whose very soul was Lord Acyuta.",
+    "translation": "One day Duryodhana, while observing the riches of King Yudhiṣṭhira's palace, felt greatly disturbed by the magnificence of both the Rājasūya sacrifice and its performer, the King, whose life and soul was Lord Acyuta.",
     "purport": null
 }

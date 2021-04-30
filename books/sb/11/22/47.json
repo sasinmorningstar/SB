@@ -1,15 +1,15 @@
 {
     "info": {
-        "id": "SB 11.22.47",
-        "prevId": "SB 11.22.46",
-        "nextId": "SB 11.22.48"
+        "id": "sb/11/22/47",
+        "prevId": "sb/11/22/46",
+        "nextId": "sb/11/22/48"
     },
     "verses": [
         {
             "roman": "niṣeka-garbha-janmāni\nbālya-kaumāra-yauvanam\nvayo-madhyaṁ jarā mṛtyur\nity avasthās tanor nava\n"
         }
     ],
-    "synonyms": "\nniṣeka—impregnation; garbha—gestation; janmāni—and birth; bālya—infancy; kaumāra—childhood; yauvanam—and youth; vayaḥ-madhyam—middle age; jarā—old age; mṛtyuḥ—death; iti—thus; avasthāḥ—ages; tanoḥ—of the body; nava—nine.\n\n",
-    "translation": "\nImpregnation, gestation, birth, infancy, childhood, youth, middle age, old age and death are the nine ages of the body.\n\n",
+    "synonyms": "niṣeka—impregnation; garbha—gestation; janmāni—and birth; bālya—infancy; kaumāra—childhood; yauvanam—and youth; vayaḥ-madhyam—middle age; jarā—old age; mṛtyuḥ—death; iti—thus; avasthāḥ—ages; tanoḥ—of the body; nava—nine.",
+    "translation": "Impregnation, gestation, birth, infancy, childhood, youth, middle age, old age and death are the nine ages of the body.",
     "purport": null
 }

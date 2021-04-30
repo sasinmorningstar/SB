@@ -1,15 +1,15 @@
 {
     "info": {
-        "id": "SB 4.5.16",
-        "prevId": "SB 4.5.15",
-        "nextId": "SB 4.5.17"
+        "id": "sb/4/5/16",
+        "prevId": "sb/4/5/15",
+        "nextId": "sb/4/5/17"
     },
     "verses": [
         {
             "roman": "abādhanta munīn anye\neke patnīr atarjayan\napare jagṛhur devān\npratyāsannān palāyitān\n"
         }
     ],
-    "synonyms": "\nabādhanta—blocked the way; munīn—the sages; anye—others; eke—some; patnīḥ—the women; atarjayan—threatened; apare—others; jagṛhuḥ—arrested; devān—the demigods; pratyāsannān—near at hand; palāyitān—who were fleeing.\n\n",
-    "translation": "\nSome blocked the way of the fleeing sages, some threatened the women assembled there, and some arrested the demigods who were fleeing the pandal.\n\n",
+    "synonyms": "abādhanta—blocked the way; munīn—the sages; anye—others; eke—some; patnīḥ—the women; atarjayan—threatened; apare—others; jagṛhuḥ—arrested; devān—the demigods; pratyāsannān—near at hand; palāyitān—who were fleeing.",
+    "translation": "Some blocked the way of the fleeing sages, some threatened the women assembled there, and some arrested the demigods who were fleeing the pandal.",
     "purport": null
 }

@@ -1,20 +1,20 @@
 {
     "info": {
-        "id": "SB 8.24.9",
-        "prevId": "SB 8.24.8",
-        "nextId": "SB 8.24.10"
+        "id": "sb/8/24/9",
+        "prevId": "sb/8/24/8",
+        "nextId": "sb/8/24/10"
     },
     "verses": [
         {
             "roman": "jñātvā tad dānavendrasya\nhayagrīvasya ceṣṭitam\ndadhāra śapharī-rūpaṁ\nbhagavān harir īśvaraḥ\n"
         }
     ],
-    "synonyms": "\njñātvā—after understanding; tat—that; dānava-indrasya—of the great demon; hayagrīvasya—of Hayagrīva; ceṣṭitam—activity; dadhāra—accepted; śapharī-rūpam—the form of a fish; bhagavān—the Supreme Personality of Godhead; hariḥ—the Lord; īśvaraḥ—the supreme controller.\n\n",
-    "translation": "\nUnderstanding the acts of the great demon Hayagrīva, the Supreme Personality of Godhead, Hari, who is full of all opulences, assumed the form of a fish and saved the Vedas by killing the demon.\n\n",
+    "synonyms": "jñātvā—after understanding; tat—that; dānava-indrasya—of the great demon; hayagrīvasya—of Hayagrīva; ceṣṭitam—activity; dadhāra—accepted; śapharī-rūpam—the form of a fish; bhagavān—the Supreme Personality of Godhead; hariḥ—the Lord; īśvaraḥ—the supreme controller.",
+    "translation": "Understanding the acts of the great demon Hayagrīva, the Supreme Personality of Godhead, Hari, who is full of all opulences, assumed the form of a fish and saved the Vedas by killing the demon.",
     "purport": [
         {
             "type": "normal",
-            "content": "\nBecause everything was inundated by water, to save the Vedas it was necessary for the Lord to assume the form of a fish.\n"
+            "content": "Because everything was inundated by water, to save the Vedas it was necessary for the Lord to assume the form of a fish."
         }
     ]
 }

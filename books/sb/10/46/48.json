@@ -1,20 +1,20 @@
 {
     "info": {
-        "id": "SB 10.46.48",
-        "prevId": "SB 10.46.47",
-        "nextId": "SB 10.46.49"
+        "id": "sb/10/46/48",
+        "prevId": "sb/10/46/47",
+        "nextId": "sb/10/46/49"
     },
     "verses": [
         {
             "roman": "akrūra āgataḥ kiṁ vā\nyaḥ kaṁsasyārtha-sādhakaḥ\nyena nīto madhu-purīṁ\nkṛṣṇaḥ kamala-locanaḥ\n"
         }
     ],
-    "synonyms": "\nakrūraḥ—Akrūra; āgataḥ—has come; kim vā—perhaps; yaḥ—who; kaṁsasya—of King Kaṁsa; artha—of the purpose; sādhakaḥ—the executor; yena—by whom; nītaḥ—brought; madhu-purīm—to Mathurā City; kṛṣṇaḥ—Kṛṣṇa; kamala—lotuslike; locanaḥ—whose eyes.\n\n",
-    "translation": "\n\"Perhaps Akrūra has returned—he who fulfilled Kaṁsa's desire by taking lotus-eyed Kṛṣṇa to Mathurā.\n\n",
+    "synonyms": "akrūraḥ—Akrūra; āgataḥ—has come; kim vā—perhaps; yaḥ—who; kaṁsasya—of King Kaṁsa; artha—of the purpose; sādhakaḥ—the executor; yena—by whom; nītaḥ—brought; madhu-purīm—to Mathurā City; kṛṣṇaḥ—Kṛṣṇa; kamala—lotuslike; locanaḥ—whose eyes.",
+    "translation": "\"Perhaps Akrūra has returned—he who fulfilled Kaṁsa's desire by taking lotus-eyed Kṛṣṇa to Mathurā.",
     "purport": [
         {
             "type": "normal",
-            "content": "\nThe gopīs angrily spoke this statement.\n"
+            "content": "The gopīs angrily spoke this statement."
         }
     ]
 }

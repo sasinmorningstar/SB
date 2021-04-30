@@ -1,15 +1,15 @@
 {
     "info": {
-        "id": "SB 10.76.23",
-        "prevId": "SB 10.76.22",
-        "nextId": "SB 10.76.24"
+        "id": "sb/10/76/23",
+        "prevId": "sb/10/76/22",
+        "nextId": "sb/10/76/24"
     },
     "verses": [
         {
             "roman": "yatra yatropalakṣyeta\nsa-saubhaḥ saha-sainikaḥ\nśālvas tatas tato 'muñcañ\ncharān sātvata-yūthapāḥ\n"
         }
     ],
-    "synonyms": "\nyatra yatra—wherever; upalakṣyeta—would appear; sa-saubhaḥ—with Saubha; saha-sainikaḥ—with his soldiers; śālvaḥ—Śālva; tataḥ tataḥ—in each of those locations; amuñcan—they released; śarān—their arrows; sātvata—of the Yadus; yūtha-pāḥ—the chiefs of the army.\n\n",
-    "translation": "\nWherever Śālva would appear with his Saubha ship and his army, there the Yadu commanders would shoot their arrows.\n\n",
+    "synonyms": "yatra yatra—wherever; upalakṣyeta—would appear; sa-saubhaḥ—with Saubha; saha-sainikaḥ—with his soldiers; śālvaḥ—Śālva; tataḥ tataḥ—in each of those locations; amuñcan—they released; śarān—their arrows; sātvata—of the Yadus; yūtha-pāḥ—the chiefs of the army.",
+    "translation": "Wherever Śālva would appear with his Saubha ship and his army, there the Yadu commanders would shoot their arrows.",
     "purport": null
 }

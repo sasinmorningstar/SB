@@ -1,15 +1,15 @@
 {
     "info": {
-        "id": "SB 10.50.10",
-        "prevId": "SB 10.50.9",
-        "nextId": "SB 10.50.11"
+        "id": "sb/10/50/10",
+        "prevId": "sb/10/50/9",
+        "nextId": "sb/10/50/11"
     },
     "verses": [
         {
             "roman": "anyo 'pi dharma-rakṣāyai\ndehaḥ saṁbhriyate mayā\nvirāmāyāpy adharmasya\nkāle prabhavataḥ kvacit\n"
         }
     ],
-    "synonyms": "\nanyaḥ—another; api—as well; dharma—of religion; rakṣāyai—for the protection; dehaḥ—body; saṁbhriyate—is assumed; mayā—by Me; virāmāya—for the stopping; api—also; adharmasya—of irreligion; kāle—in the course of time; prabhavataḥ—becoming prominent; kvacit—whenever.\n\n",
-    "translation": "\nI also assume other bodies to protect religion and to end irreligion whenever it flourishes in the course of time.\n\n",
+    "synonyms": "anyaḥ—another; api—as well; dharma—of religion; rakṣāyai—for the protection; dehaḥ—body; saṁbhriyate—is assumed; mayā—by Me; virāmāya—for the stopping; api—also; adharmasya—of irreligion; kāle—in the course of time; prabhavataḥ—becoming prominent; kvacit—whenever.",
+    "translation": "I also assume other bodies to protect religion and to end irreligion whenever it flourishes in the course of time.",
     "purport": null
 }

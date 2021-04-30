@@ -1,15 +1,15 @@
 {
     "info": {
-        "id": "SB 10.44.10",
-        "prevId": "SB 10.44.9",
-        "nextId": "SB 10.44.11"
+        "id": "sb/10/44/10",
+        "prevId": "sb/10/44/9",
+        "nextId": "sb/10/44/11"
     },
     "verses": [
         {
             "roman": "na sabhāṁ praviśet prājñaḥ\nsabhya-doṣān anusmaran\nabruvan vibruvann ajño\nnaraḥ kilbiṣam aśnute\n"
         }
     ],
-    "synonyms": "\nna—not; sabhām—an assembly; praviśet—should enter; prājñaḥ—the wise person; sabhya—of the assembly members; doṣān—sinful discrepancies; anusmaran—keeping in mind; abruvan—not speaking; vibruvan—speaking wrongly; ajñaḥ—ignorant (or pretending to be so); naraḥ—a man; kilbiṣam—sin; aśnute—incurs.\n\n",
-    "translation": "\nA wise person should not enter an assembly if he knows the participants there are committing acts of impropriety. And if, having entered such an assembly, he fails to speak the truth, speaks falsely or pleads ignorance, he will certainly incur sin.\n\n",
+    "synonyms": "na—not; sabhām—an assembly; praviśet—should enter; prājñaḥ—the wise person; sabhya—of the assembly members; doṣān—sinful discrepancies; anusmaran—keeping in mind; abruvan—not speaking; vibruvan—speaking wrongly; ajñaḥ—ignorant (or pretending to be so); naraḥ—a man; kilbiṣam—sin; aśnute—incurs.",
+    "translation": "A wise person should not enter an assembly if he knows the participants there are committing acts of impropriety. And if, having entered such an assembly, he fails to speak the truth, speaks falsely or pleads ignorance, he will certainly incur sin.",
     "purport": null
 }

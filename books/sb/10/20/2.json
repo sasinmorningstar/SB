@@ -1,15 +1,15 @@
 {
     "info": {
-        "id": "SB 10.20.2",
-        "prevId": "SB 10.20.1",
-        "nextId": "SB 10.20.3"
+        "id": "sb/10/20/2",
+        "prevId": "sb/10/20/1",
+        "nextId": "sb/10/20/3"
     },
     "verses": [
         {
             "roman": "gopa-vṛddhāś ca gopyaś ca\ntad upākarṇya vismitāḥ\nmenire deva-pravarau\nkṛṣṇa-rāmau vrajaṁ gatau\n"
         }
     ],
-    "synonyms": "\ngopa-vṛddhāḥ—the elder cowherd men; ca—and; gopyaḥ—the cowherd ladies; ca—also; tat—that; upākarṇya—hearing; vismitāḥ—surprised; menire—they considered; deva-pravarau—two eminent demigods; vrajam—to Vṛndāvana\n\n",
-    "translation": "\nThe elder cowherd men and ladies were amazed to hear this account, and they concluded that Kṛṣṇa and Balarāma must be exalted demigods who had appeared in Vṛndāvana.\n\n",
+    "synonyms": "gopa-vṛddhāḥ—the elder cowherd men; ca—and; gopyaḥ—the cowherd ladies; ca—also; tat—that; upākarṇya—hearing; vismitāḥ—surprised; menire—they considered; deva-pravarau—two eminent demigods; vrajam—to Vṛndāvana",
+    "translation": "The elder cowherd men and ladies were amazed to hear this account, and they concluded that Kṛṣṇa and Balarāma must be exalted demigods who had appeared in Vṛndāvana.",
     "purport": null
 }

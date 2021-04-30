@@ -1,15 +1,15 @@
 {
     "info": {
-        "id": "SB 10.61.30",
-        "prevId": "SB 10.61.29",
-        "nextId": "SB 10.61.31"
+        "id": "sb/10/61/30",
+        "prevId": "sb/10/61/29",
+        "nextId": "sb/10/61/31"
     },
     "verses": [
         {
             "roman": "tato lakṣaṁ rukmy agṛhṇād\nglahaṁ tatrājayad balaḥ\njitavān aham ity āha\nrukmī kaitavam āśritaḥ\n"
         }
     ],
-    "synonyms": "\ntataḥ—then; lakṣam—one hundred thousand; rukmī—Rukmī; agṛhṇāt—accepted; glaham—a bet; tatra—in that; ajayat—won; balaḥ—Lord Balarāma; jitavān—have won; aham—I; iti—thus; āha—said; rukmī—Rukmī; kaitavam—deception; āśritaḥ—resorting to.\n\n",
-    "translation": "\nNext Rukmī accepted a bet of one hundred thousand coins, which Lord Balarāma won. But Rukmī tried to cheat, declaring \"I'm the winner!\"\n\n",
+    "synonyms": "tataḥ—then; lakṣam—one hundred thousand; rukmī—Rukmī; agṛhṇāt—accepted; glaham—a bet; tatra—in that; ajayat—won; balaḥ—Lord Balarāma; jitavān—have won; aham—I; iti—thus; āha—said; rukmī—Rukmī; kaitavam—deception; āśritaḥ—resorting to.",
+    "translation": "Next Rukmī accepted a bet of one hundred thousand coins, which Lord Balarāma won. But Rukmī tried to cheat, declaring \"I'm the winner!\"",
     "purport": null
 }

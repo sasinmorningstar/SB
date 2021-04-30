@@ -1,15 +1,15 @@
 {
     "info": {
-        "id": "SB 10.63.8",
-        "prevId": "SB 10.63.7",
-        "nextId": "SB 10.63.9"
+        "id": "sb/10/63/8",
+        "prevId": "sb/10/63/7",
+        "nextId": "sb/10/63/9"
     },
     "verses": [
         {
             "roman": "kumbhāṇḍa-kūpakarṇābhyāṁ\nbalena saha saṁyugaḥ\nsāmbasya bāṇa-putreṇa\nbāṇena saha sātyakeḥ\n"
         }
     ],
-    "synonyms": "\nkumbhāṇḍa-kūpakarṇābhyām—by Kumbhāṇḍa and Kūpakarṇa; balena saha—with Lord Balarāma; saṁyugaḥ—a fight; sāmbasya—of Sāmba; bāṇa-putreṇa—with the son of Bāṇa; bāṇena saha—with Bāṇa; sātyakeḥ—of Sātyaki.\n\n",
-    "translation": "\nLord Balarāma fought with Kumbhāṇḍa and Kūpakarṇa, Sāmba with Bāṇa's son, and Sātyaki with Bāṇa.\n\n",
+    "synonyms": "kumbhāṇḍa-kūpakarṇābhyām—by Kumbhāṇḍa and Kūpakarṇa; balena saha—with Lord Balarāma; saṁyugaḥ—a fight; sāmbasya—of Sāmba; bāṇa-putreṇa—with the son of Bāṇa; bāṇena saha—with Bāṇa; sātyakeḥ—of Sātyaki.",
+    "translation": "Lord Balarāma fought with Kumbhāṇḍa and Kūpakarṇa, Sāmba with Bāṇa's son, and Sātyaki with Bāṇa.",
     "purport": null
 }

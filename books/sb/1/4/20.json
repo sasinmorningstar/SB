@@ -1,15 +1,15 @@
 {
     "info": {
-        "id": "SB 1.4.20",
-        "prevId": "SB 1.4.19",
-        "nextId": "SB 1.4.21"
+        "id": "sb/1/4/20",
+        "prevId": "sb/1/4/19",
+        "nextId": "sb/1/4/21"
     },
     "verses": [
         {
             "roman": "ṛg-yajuḥ-sāmātharvākhyā\nvedāś catvāra uddhṛtāḥ\nitihāsa-purāṇaṁ ca\npañcamo veda ucyate\n"
         }
     ],
-    "synonyms": "\nṛg-yajuḥ-sāma-atharva-ākhyāḥ—the names of the four Vedas; vedāḥ—the Vedas; catvāraḥ—four; uddhṛtāḥ—made into separate parts; itihāsa—historical records (Mahābhārata); purāṇam ca—and the Purāṇas; pañcamaḥ—the fifth; vedaḥ—the original source of knowledge; ucyate—is said to be.\n\n",
-    "translation": "\nThe four divisions of the original sources of knowledge [the Vedas] were made separately. But the historical facts and authentic stories mentioned in the Purāṇas are called the fifth Veda.\n\n",
+    "synonyms": "ṛg-yajuḥ-sāma-atharva-ākhyāḥ—the names of the four Vedas; vedāḥ—the Vedas; catvāraḥ—four; uddhṛtāḥ—made into separate parts; itihāsa—historical records (Mahābhārata); purāṇam ca—and the Purāṇas; pañcamaḥ—the fifth; vedaḥ—the original source of knowledge; ucyate—is said to be.",
+    "translation": "The four divisions of the original sources of knowledge [the Vedas] were made separately. But the historical facts and authentic stories mentioned in the Purāṇas are called the fifth Veda.",
     "purport": null
 }

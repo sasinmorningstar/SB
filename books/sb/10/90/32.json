@@ -1,15 +1,15 @@
 {
     "info": {
-        "id": "SB 10.90.32",
-        "prevId": "SB 10.90.31",
-        "nextId": "SB 10.90.33-34"
+        "id": "sb/10/90/32",
+        "prevId": "sb/10/90/31",
+        "nextId": "sb/10/90/33-34"
     },
     "verses": [
         {
             "roman": "teṣām uddāma-vīryāṇām\naṣṭā-daśa mahā-rathāḥ\nāsann udāra-yaśasas\nteṣāṁ nāmāni me śṛṇu\n"
         }
     ],
-    "synonyms": "\nteṣām—of these (sons); uddāma—unlimited; vīryāṇām—whose prowess; aṣṭā-daśa—eighteen; mahā-rathāḥ—mahā-rathas, the highest class of chariot warriors; āsan—were; udāra—widespread; yaśasaḥ—whose fame; teṣām—their; nāmāni—names; me—from me; śṛṇu—hear.\n\n",
-    "translation": "\nAmong these sons, all possessing unlimited valor, eighteen were mahā-rathas of great renown. Now hear their names from me.\n\n",
+    "synonyms": "teṣām—of these (sons); uddāma—unlimited; vīryāṇām—whose prowess; aṣṭā-daśa—eighteen; mahā-rathāḥ—mahā-rathas, the highest class of chariot warriors; āsan—were; udāra—widespread; yaśasaḥ—whose fame; teṣām—their; nāmāni—names; me—from me; śṛṇu—hear.",
+    "translation": "Among these sons, all possessing unlimited valor, eighteen were mahā-rathas of great renown. Now hear their names from me.",
     "purport": null
 }
