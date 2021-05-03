@@ -4,5 +4,5 @@ find . -type f | xargs sed -i -e '/"nextId"/s/\(.*\) /\1\//' -e '/"nextId"/s/\./
 find . -type f | xargs sed -i -e '/"synonyms"/s/\\n//g'
 find . -type f | xargs sed -i -e '/"translation"/s/\\n//g'
 find . -type f | xargs sed -i -e '/"content"/s/\\n//' -e '/"content"/s/\(.*\)\\n/\1/'
-find . type f -name "1-*.json" ! -path "./1/*" ! -path "./2/*" ! -path "./3/*" ! -path "./4/*"| xargs sed -i -e '/"id"/s/Summary/summary/' -e '/"id"/s/\(.*\) /\1\//'
-find . type f -name "1.json" ! -path "./1/*" ! -path "./2/*" ! -path "./3/*" ! -path "./4/*" | xargs sed -i -e '/"prevId"/s/Summary/summary/' -e '/"prevId"/s/\(.*\) /\1\//'
+find . -type f -name "1-*.json" ! -path "./1/*" ! -path "./2/*" ! -path "./3/*" ! -path "./4/*"| xargs sed -i -e '/"prevId"/s/Summary/summary/' -e '/"prevId"/s/\(.*\) /\1\//'
+find . -type f -name "1.json" ! -path "./1/*" ! -path "./2/*" ! -path "./3/*" ! -path "./4/*" | xargs sed -i -e '/"prevId"/s/Summary/summary/' -e '/"prevId"/s/\(.*\) /\1\//'
