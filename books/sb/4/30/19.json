@@ -1,8 +1,8 @@
 {
     "info": {
-        "id": "sb/4/30/19",
-        "prevId": "sb/4/30/18",
-        "nextId": "sb/4/30/20"
+        "id":/"sb/4/30/19",
+        "prevId":/"sb/4/30/18",
+        "nextId":/"sb/4/30/20"
     },
     "verses": [
         {
@@ -18,7 +18,7 @@
         },
         {
             "type": "verse",
-            "content": "yajñārthāt karmaṇo 'nyatraloko 'yaṁ karma-bandhanaḥ\ntad-arthaṁ karma kaunteyamukta-saṅgaḥ samācara"
+            "content": "yajñārthāt karmaṇo 'nyatraloko 'yaṁ karma-bandhanaḥtad-arthaṁ karma kaunteyamukta-saṅgaḥ samācara"
         },
         {
             "type": "normal",
@@ -26,7 +26,7 @@
         },
         {
             "type": "verse",
-            "content": "īhā yasya harer dāsyekarmaṇā manasā girā\nnikhilāsv apy avasthāsujīvan-muktaḥ sa ucyate"
+            "content": "īhā yasya harer dāsyekarmaṇā manasā girānikhilāsv apy avasthāsujīvan-muktaḥ sa ucyate"
         },
         {
             "type": "normal",
@@ -42,7 +42,7 @@
         },
         {
             "type": "verse",
-            "content": "tasmād asaktaḥ satataṁkāryaṁ karma samācara\nasakto hy ācaran karmaparam āpnoti pūruṣaḥ"
+            "content": "tasmād asaktaḥ satataṁkāryaṁ karma samācaraasakto hy ācaran karmaparam āpnoti pūruṣaḥ"
         },
         {
             "type": "normal",

@@ -1,8 +1,8 @@
 {
     "info": {
-        "id": "sb/4/31/2",
-        "prevId": "sb/4/31/1",
-        "nextId": "sb/4/31/3"
+        "id":/"sb/4/31/2",
+        "prevId":/"sb/4/31/1",
+        "nextId":/"sb/4/31/3"
     },
     "verses": [
         {
@@ -18,7 +18,7 @@
         },
         {
             "type": "verse",
-            "content": "brahma-bhūtaḥ prasannātmāna śocati na kāṅkṣati\nsamaḥ sarveṣu bhūteṣumad-bhaktiṁ labhate parām"
+            "content": "brahma-bhūtaḥ prasannātmāna śocati na kāṅkṣatisamaḥ sarveṣu bhūteṣumad-bhaktiṁ labhate parām"
         },
         {
             "type": "normal",
@@ -30,7 +30,7 @@
         },
         {
             "type": "verse",
-            "content": "vidyā-vinaya-sampannebrāhmaṇe gavi hastini\nśuni caiva śvapāke capaṇḍitāḥ sama-darśinaḥ"
+            "content": "vidyā-vinaya-sampannebrāhmaṇe gavi hastiniśuni caiva śvapāke capaṇḍitāḥ sama-darśinaḥ"
         },
         {
             "type": "normal",

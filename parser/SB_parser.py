@@ -247,12 +247,11 @@ while chap<32:
             _source = requests.get(url)
             # print("Received response from the server")
             soup = BeautifulSoup(_source.content, 'html.parser')
+            
             # print("Doing necessary validation and calling the Parser")
-
             page_check = str(soup.find("div", {"class":"noarticletext mw-content-ltr"}))
 
             if page_check and str(page_check)!=str(None):
-                print("Validation Failed")
                 total += 1
                 continue
             else:

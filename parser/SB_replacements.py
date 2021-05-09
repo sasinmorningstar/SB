@@ -33,23 +33,6 @@ def translation_replacements(translation):
     translation = translation.replace('</div>', '')
     return translation
 
-
-# def purport_para_replacements(purport_para):
-#     purport_para = purport_para.replace(', <p>', '')
-#     purport_para = purport_para.replace('<p>', '')
-#     purport_para = purport_para.replace('</p>', '')
-#     purport_para = purport_para.replace('<b>', '')
-#     purport_para = purport_para.replace('</b>', '')
-
-#     purport_para = purport_para.replace('[', '')
-#     purport_para = purport_para.replace(']', '')
-    
-
-#     purport_para = re.sub('(\(<a.*/a>\))','',purport_para)
-#     purport_para = re.sub('(<a.*/a>)','',purport_para)
-
-#     return purport_para
-
 def purport_replacements(purport):
     purport = purport.replace('</p>', '---')
     purport = purport.replace('[<div class="purport">', '')
@@ -61,20 +44,9 @@ def purport_replacements(purport):
     purport = purport.replace('<dl>', 'verse>>>')
     purport = purport.replace('<dd>', '')
     purport = purport.replace('</dd>', '')
-    purport = re.sub('(\(<a.*/a>\))','',purport)
-    purport = re.sub('(<a.*/a>)','',purport)
+    purport = re.sub('(\(<a.*?/a>\))','',purport)
+    purport = re.sub('(<a.*?/a>)','',purport)
     purport = purport.replace('<b>', '')
     purport = purport.replace('</b>', '')
 
     return purport
-
-# def purport_verse_replacements(purport_verse):
-#     purport_verse = purport_verse.replace('<dl>', '')
-#     purport_verse = purport_verse.replace('</dl>', '---')
-#     purport_verse = purport_verse.replace('<dd>', '')
-#     purport_verse = purport_verse.replace('</dd>', '')
-
-#     purport_verse = re.sub('(\(<a.*/a>\))','',purport_verse)
-#     purport_verse = re.sub('(<a.*/a>)','',purport_verse)
-
-#     return purport_verse

@@ -1,8 +1,8 @@
 {
     "info": {
-        "id": "sb/4/31/17",
-        "prevId": "sb/4/31/16",
-        "nextId": "sb/4/31/18"
+        "id":/"sb/4/31/17",
+        "prevId":/"sb/4/31/16",
+        "nextId":/"sb/4/31/18"
     },
     "verses": [
         {
@@ -18,7 +18,7 @@
         },
         {
             "type": "verse",
-            "content": "bhūmir āpo 'nalo vāyuḥkhaṁ mano buddhir eva ca\nahaṅkāra itīyaṁ mebhinnā prakṛtir aṣṭadhā"
+            "content": "bhūmir āpo 'nalo vāyuḥkhaṁ mano buddhir eva caahaṅkāra itīyaṁ mebhinnā prakṛtir aṣṭadhā"
         },
         {
             "type": "normal",
@@ -30,7 +30,7 @@
         },
         {
             "type": "verse",
-            "content": "īśvaraḥ paramaḥ kṛṣṇaḥsac-cid-ānanda-vigrahaḥ\nanādir ādir govindaḥsarva-kāraṇa-kāraṇam"
+            "content": "īśvaraḥ paramaḥ kṛṣṇaḥsac-cid-ānanda-vigrahaḥanādir ādir govindaḥsarva-kāraṇa-kāraṇam"
         },
         {
             "type": "normal",

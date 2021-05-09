@@ -1,8 +1,8 @@
 {
     "info": {
-        "id": "sb/4/31/13",
-        "prevId": "sb/4/31/12",
-        "nextId": "sb/4/31/14"
+        "id":/"sb/4/31/13",
+        "prevId":/"sb/4/31/12",
+        "nextId":/"sb/4/31/14"
     },
     "verses": [
         {
@@ -18,11 +18,11 @@
         },
         {
             "type": "verse",
-            "content": "bhūmir āpo 'nalo vāyuḥkhaṁ mano buddhir eva ca\nahaṅkāra itīyaṁ mebhinnā prakṛtir aṣṭadhā"
+            "content": "bhūmir āpo 'nalo vāyuḥkhaṁ mano buddhir eva caahaṅkāra itīyaṁ mebhinnā prakṛtir aṣṭadhā"
         },
         {
             "type": "verse",
-            "content": "apareyam itas tv anyāṁprakṛtiṁ viddhi me parām\njīva-bhūtāṁ mahā-bāhoyayedaṁ dhāryate jagat"
+            "content": "apareyam itas tv anyāṁprakṛtiṁ viddhi me parāmjīva-bhūtāṁ mahā-bāhoyayedaṁ dhāryate jagat"
         },
         {
             "type": "normal",
@@ -42,7 +42,7 @@
         },
         {
             "type": "verse",
-            "content": "teṣāṁ satata-yuktānāṁbhajatāṁ prīti-pūrvakam\ndadāmi buddhi-yogaṁ taṁyena mām upayānti te"
+            "content": "teṣāṁ satata-yuktānāṁbhajatāṁ prīti-pūrvakamdadāmi buddhi-yogaṁ taṁyena mām upayānti te"
         },
         {
             "type": "normal",

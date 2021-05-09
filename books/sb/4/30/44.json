@@ -1,8 +1,8 @@
 {
     "info": {
-        "id": "sb/4/30/44",
-        "prevId": "sb/4/30/43",
-        "nextId": "sb/4/30/45"
+        "id":/"sb/4/30/44",
+        "prevId":/"sb/4/30/43",
+        "nextId":/"sb/4/30/45"
     },
     "verses": [
         {
@@ -22,7 +22,7 @@
         },
         {
             "type": "verse",
-            "content": "annād bhavanti bhūtāniparjanyād anna-sambhavaḥ\nyajñād bhavati parjanyoyajñaḥ karma-samudbhavaḥ"
+            "content": "annād bhavanti bhūtāniparjanyād anna-sambhavaḥyajñād bhavati parjanyoyajñaḥ karma-samudbhavaḥ"
         },
         {
             "type": "normal",

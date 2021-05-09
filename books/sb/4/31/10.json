@@ -1,8 +1,8 @@
 {
     "info": {
-        "id": "sb/4/31/10",
-        "prevId": "sb/4/31/9",
-        "nextId": "sb/4/31/11"
+        "id":/"sb/4/31/10",
+        "prevId":/"sb/4/31/9",
+        "nextId":/"sb/4/31/11"
     },
     "verses": [
         {
@@ -18,7 +18,7 @@
         },
         {
             "type": "verse",
-            "content": "yathā kāñcanatāṁ yātikāṁsyaṁ rasa-vidhānataḥ\ntathā dīkṣā-vidhānenadvijatvaṁ jāyate nṛṇām"
+            "content": "yathā kāñcanatāṁ yātikāṁsyaṁ rasa-vidhānataḥtathā dīkṣā-vidhānenadvijatvaṁ jāyate nṛṇām"
         },
         {
             "type": "normal",
@@ -26,7 +26,7 @@
         },
         {
             "type": "verse",
-            "content": "caṇḍālo 'pi dvija-śreṣṭhohari-bhakti-parāyaṇaḥ\nhari-bhakti-vihīnaś cadvijo 'pi śvapacādhamaḥ"
+            "content": "caṇḍālo 'pi dvija-śreṣṭhohari-bhakti-parāyaṇaḥhari-bhakti-vihīnaś cadvijo 'pi śvapacādhamaḥ"
         },
         {
             "type": "normal",
@@ -42,7 +42,7 @@
         },
         {
             "type": "verse",
-            "content": "yasya yal lakṣaṇaṁ proktaṁpuṁso varṇābhivyañjakam\nyad anyatrāpi dṛśyeta\ntat tenaiva vinirdiśet"
+            "content": "yasya yal lakṣaṇaṁ proktaṁpuṁso varṇābhivyañjakamyad anyatrāpi dṛśyetatat tenaiva vinirdiśet"
         },
         {
             "type": "normal",
@@ -54,7 +54,7 @@
         },
         {
             "type": "verse",
-            "content": "sahasra-yuga-paryantamahar yad brahmaṇo viduḥ\nrātriṁ yuga-sahasrāntāṁ\nte 'ho-rātra-vido janāḥ"
+            "content": "sahasra-yuga-paryantamahar yad brahmaṇo viduḥrātriṁ yuga-sahasrāntāṁte 'ho-rātra-vido janāḥ"
         },
         {
             "type": "normal",

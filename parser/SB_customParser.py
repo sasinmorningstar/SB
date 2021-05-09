@@ -42,7 +42,8 @@ def parser(soup):
 
     global _index
     # _index = "summary"
-    _index = "appendix"
+    # _index = "appendix"
+    _index = "additional_notes"
 
     if len(pointers)==1:
         navigation = {"id": current_id, "prevId": None, "nextId": pointers[0]}
@@ -109,46 +110,46 @@ def parser(soup):
 
 
     # if Path(f'/home/somit/Projects/web-scraping/SB/{canto}/{chapter}/{_index}.json').is_file():
-    # if Path(f'C:\\Users\\somit.sinha\\Desktop\\Projects\\Srimad-Bhagavatam\\books\\sb\\{canto}\\{chapter}\\{_index}.json').is_file():
-    if Path(f'C:\\Users\\somit.sinha\\Desktop\\Projects\\Srimad-Bhagavatam\\books\\sb\\{canto}\\{_index}.json').is_file():
-        with open(f'C:\\Users\\somit.sinha\\Desktop\\Projects\\Srimad-Bhagavatam\\books\\sb\\{canto}\\{_index}.json', 'w', encoding="utf-8") as json_file:
+    if Path(f'C:\\Users\\somit.sinha\\Desktop\\Projects\\Srimad-Bhagavatam\\books\\sb\\{canto}\\{chapter}\\{_index}.json').is_file():
+        with open(f'C:\\Users\\somit.sinha\\Desktop\\Projects\\Srimad-Bhagavatam\\books\\sb\\{canto}\\{chapter}\\{_index}.json', 'w', encoding="utf-8") as json_file:
             print(json_knowledge, file=json_file)
     else:
-        with open(f'C:\\Users\\somit.sinha\\Desktop\\Projects\\Srimad-Bhagavatam\\books\\sb\\{canto}\\{_index}.json', 'x', encoding="utf-8") as json_file:
+        with open(f'C:\\Users\\somit.sinha\\Desktop\\Projects\\Srimad-Bhagavatam\\books\\sb\\{canto}\\{chapter}\\{_index}.json', 'x', encoding="utf-8") as json_file:
             print(json_knowledge, file=json_file)
 
 
-    global chap
-    chap += 1
+    # global chap
+    # chap += 1
 
 
 
 # Driver Code for parser
-canto = 11
+canto = 10
 chap = 1
 
 # custom_indices = ["Summary"]
-custom_indices = ["Appendix"]
+# custom_indices = ["Appendix"]
+custom_indices = ["Additional_Notes"]
 
-# while chap<2:
-    # for chapter in range(chap,chap+1):
-for _index in custom_indices:
-    url = f'https://vanisource.org/wiki/SB_{canto}_{_index}'
+# while chap<14:
+for chapter in range(chap,chap+1):
+    for _index in custom_indices:
+        url = f'https://vanisource.org/wiki/SB_{canto}.{chapter}_{_index}'
 
-    # print("Making a GET request")
-    _source = requests.get(url)
-    # print("Received response from the server")
-    soup = BeautifulSoup(_source.content, 'html.parser')
-    # print("Doing necessary validation and calling the Parser")
+        # print("Making a GET request")
+        _source = requests.get(url)
+        # print("Received response from the server")
+        soup = BeautifulSoup(_source.content, 'html.parser')
+        # print("Doing necessary validation and calling the Parser")
 
-    page_check = str(soup.find("div", {"class":"noarticletext mw-content-ltr"}))
+        page_check = str(soup.find("div", {"class":"noarticletext mw-content-ltr"}))
 
-    if page_check and str(page_check)!=str(None):
-        total += 1
-        continue
-    else:
-        print(_index)
-        # with open("C:\\Users\\somit.sinha\\Desktop\\soup.txt", 'w', encoding="utf-8") as soup_file:
-        #     print(soup, file=soup_file)
+        if page_check and str(page_check)!=str(None):
+            total += 1
+            continue
+        else:
+            print(_index)
+            # with open("C:\\Users\\somit.sinha\\Desktop\\soup.txt", 'w', encoding="utf-8") as soup_file:
+            #     print(soup, file=soup_file)
 
-        parser(soup)
+            parser(soup)

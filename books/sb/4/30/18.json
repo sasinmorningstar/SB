@@ -1,8 +1,8 @@
 {
     "info": {
-        "id": "sb/4/30/18",
-        "prevId": "sb/4/30/17",
-        "nextId": "sb/4/30/19"
+        "id":/"sb/4/30/18",
+        "prevId":/"sb/4/30/17",
+        "nextId":/"sb/4/30/19"
     },
     "verses": [
         {
@@ -18,7 +18,7 @@
         },
         {
             "type": "verse",
-            "content": "māṁ ca yo 'vyabhicāreṇabhakti-yogena sevate\nsa guṇān samatītyaitānbrahma-bhūyāya kalpate"
+            "content": "māṁ ca yo 'vyabhicāreṇabhakti-yogena sevatesa guṇān samatītyaitānbrahma-bhūyāya kalpate"
         },
         {
             "type": "normal",
@@ -34,7 +34,7 @@
         },
         {
             "type": "verse",
-            "content": "ābrahma-bhuvanāl lokāḥpunar āvartino 'rjuna\nmām upetya tu kaunteyapunar janma na vidyate"
+            "content": "ābrahma-bhuvanāl lokāḥpunar āvartino 'rjunamām upetya tu kaunteyapunar janma na vidyate"
         },
         {
             "type": "normal",
